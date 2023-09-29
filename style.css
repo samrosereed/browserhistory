@@ -5,11 +5,7 @@ font-family: 'Open Sans', sans-serif;
   background-color: Ivory;
 }
 
-#navbar ul {
-  list-style-type: none;
-  margin:0;
-  padding:0;
-}
+
 
 h1, h2 {
   font-family: 'Oswald', sans-serif;
@@ -20,6 +16,21 @@ img {
   margin-right: 10px;
 }
 
+body.index {
+  background-color: Ivory;
+}
+body.chrome {
+  background-color: Ivory; /* Change to Chrome's background color */
+}
+body.firefox {
+  background-color: Ivory;
+}
+
+/* Styles for the ie.html page */
+body.ie {
+  background-color: Ivory; /* Change to Internet Explorer's background color */
+}
+/*
 .left {
   float: left;
   width:300px;
@@ -37,3 +48,5 @@ img {
   margin-right: 300px;
   padding: 1em;
 }
+
+ */
